@@ -1,26 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import CircleInBoxWithDelay from "./Components/CircleInBoxWithDelay";
+import DragInBox from "./Components/DragInBox";
+import DragWithUseMotionValue from "./Components/DragWithUseMotionValue";
+import HoverNTap from "./Components/HoverNTap";
+import LayoutId from './Components/LayoutId';
+import Slider from "./Components/Slider";
+import LayoutId2 from './LayoutId2';
+import SvgAnimation from './Components/SvgAnimation';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return(
+    <div></div>
+    )
 }
 
 export default App;
